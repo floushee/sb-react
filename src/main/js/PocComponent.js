@@ -7,9 +7,7 @@ function PocComponent(){
     useEffect(() => {
         fetch('/api/message')
             .then((res) => res.text())
-            .then((message) => {
-                setMessage(message)
-            });
+            .then(setMessage);
     })
 
     return (

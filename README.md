@@ -1,6 +1,8 @@
 # Integrate React into a Spring Boot application
 An example on how to integrate React into a Spring Boot application for simple playground projects.
 
+I created this repo based on this [blog post](https://nipafx.dev/java-react-folders/) as copy+paste template for future fun projects.
+
 1. Spring Initializer (web starter)
 2. ````npx crate-react-app frontend````
 3. Move node_modules, package.json package-lock.json from frontend directory to Spring Boot app source directory and merge .gitignore files
